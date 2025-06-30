@@ -4,5 +4,4 @@
 
 - SYCL handles data management automatically as well i.e., unlike CUDA, no need for memcpys to and from device/host. 
 
-
-
+- SYCL is just plain C++. It leverages modern constructs. On the other hand, OpenCL and CUDA extend C++ (this is because cause they're older and teh constructs available then did not suffice). 
